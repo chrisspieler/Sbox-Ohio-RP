@@ -38,6 +38,7 @@
     "Description": "Trust me.",
     "Public": true,
     "ReplaceTags": "ohio rp life sim pete burns rip homie real one",
-    "TickRate": 50
+    "TickRate": 50,
+    "StartupScene": "scenes/main.scene"
   }
 }

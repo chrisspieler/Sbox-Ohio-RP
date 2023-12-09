@@ -3,12 +3,13 @@
 @using Sandbox.UI;
 
 @namespace OhioRP
-@inherits RootPanel;
-@implements Sandbox.Menu.IGameMenuPanel;
+@inherits PanelComponent;
 
 @attribute [StyleSheet]
 <root>
-    <CitizenPanelScene @ref=ScenePanel/>
     <div class="counter-text">Total Spins: @TotalSpins</div>
-    <div @ref=FurryText class="furry-text">You are now a furry.</div>
+    @if ( PlayerIsFurry )
+    {
+        <div class="furry-text">You are now a furry.</div>
+    }
 </root>

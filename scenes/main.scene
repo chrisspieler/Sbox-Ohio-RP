@@ -1,0 +1,129 @@
+{
+  "GameObjects": [
+    {
+      "Id": "03e1b857-3dd2-47c7-b4fe-6ad5c8115951",
+      "Name": "Game",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "GameManager",
+          "__enabled": true,
+          "OhioHud": "d65e9494-3606-48c4-8922-2c1b4bf5e152",
+          "Singer": "38a18f74-6bc9-4397-8724-e545bac684ce",
+          "Spinner": "38a18f74-6bc9-4397-8724-e545bac684ce",
+          "VisemePlayer": "38a18f74-6bc9-4397-8724-e545bac684ce"
+        }
+      ]
+    },
+    {
+      "Id": "38a18f74-6bc9-4397-8724-e545bac684ce",
+      "Name": "Spinner",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SkinnedModelRenderer",
+          "__enabled": true,
+          "BodyGroups": 18446744073709551615,
+          "BoneMergeTarget": null,
+          "CreateBoneObjects": false,
+          "MaterialOverride": null,
+          "Model": "models/citizen/citizen.vmdl",
+          "ShouldCastShadows": true,
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Spinner",
+          "__enabled": true,
+          "DegreesPerSecond": "0,120,0"
+        },
+        {
+          "__type": "Singer",
+          "__enabled": true,
+          "FakeOcclusionScale": 0.8,
+          "SoundSource": "45ccdfc7-b28c-40be-a0d7-8b6a540c97fc"
+        },
+        {
+          "__type": "VisemePlayer",
+          "__enabled": true,
+          "SingerModel": "38a18f74-6bc9-4397-8724-e545bac684ce"
+        }
+      ],
+      "Children": [
+        {
+          "Id": "45ccdfc7-b28c-40be-a0d7-8b6a540c97fc",
+          "Name": "Sound Source",
+          "Position": "6,0,60",
+          "Enabled": true
+        }
+      ]
+    },
+    {
+      "Id": "0a26d448-297a-47e9-99cc-f5750e0952ea",
+      "Name": "Point Light",
+      "Position": "60,0,128",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "PointLight",
+          "__enabled": true,
+          "LightColor": "1,0.85,0.71,1",
+          "Radius": 100
+        }
+      ]
+    },
+    {
+      "Id": "abeeece9-d8d5-426f-808e-a6840135dd4e",
+      "Name": "Camera",
+      "Position": "30,0,40",
+      "Rotation": "0.3420203,0.0000002182273,0.9396926,-0.0000006009635",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "CameraComponent",
+          "__enabled": true,
+          "BackgroundColor": "0,0,0,1",
+          "ClearFlags": "All",
+          "FieldOfView": 80,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "Id": "d65e9494-3606-48c4-8922-2c1b4bf5e152",
+      "Name": "Screen UI",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ScreenPanel",
+          "__enabled": true,
+          "AutoScreenScale": true,
+          "Opacity": 1,
+          "Scale": 1,
+          "ZIndex": 100
+        },
+        {
+          "__type": "OhioHud",
+          "__enabled": true
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "Lerping": true,
+    "UseFixedUpdate": true,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "MaxFixedUpdates": 5,
+    "FixedUpdateFrequency": 50,
+    "NetworkFrequency": 60
+  },
+  "Title": "main",
+  "Description": "",
+  "__references": []
+}

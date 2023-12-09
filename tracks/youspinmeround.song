@@ -1,0 +1,297 @@
+{
+  "VocalTrack": "sfx/isolatedvocals.sound",
+  "BackingTrack": "sfx/isolatedinstrumental.sound",
+  "Phonemes": [
+    {
+      "Phoneme": 106,
+      "Start": 0.015,
+      "End": 0.134
+    },
+    {
+      "Phoneme": 117,
+      "Start": 0.116,
+      "End": 0.441
+    },
+    {
+      "Phoneme": 115,
+      "Start": 0.421,
+      "End": 0.592
+    },
+    {
+      "Phoneme": 112,
+      "Start": 0.611,
+      "End": 0.651
+    },
+    {
+      "Phoneme": 618,
+      "Start": 0.647,
+      "End": 0.889
+    },
+    {
+      "Phoneme": 110,
+      "Start": 0.884,
+      "End": 1.009
+    },
+    {
+      "Phoneme": 109,
+      "Start": 1.004,
+      "End": 1.128
+    },
+    {
+      "Phoneme": 105,
+      "Start": 1.127,
+      "End": 1.43
+    },
+    {
+      "Phoneme": 633,
+      "Start": 1.427,
+      "End": 1.524
+    },
+    {
+      "Phoneme": 593,
+      "Start": 1.524,
+      "End": 1.608
+    },
+    {
+      "Phoneme": 105,
+      "Start": 1.604,
+      "End": 1.856
+    },
+    {
+      "Phoneme": 116,
+      "Start": 1.854,
+      "End": 1.944
+    },
+    {
+      "Phoneme": 633,
+      "Start": 1.931,
+      "End": 2.031
+    },
+    {
+      "Phoneme": 111,
+      "Start": 2.02,
+      "End": 2.265
+    },
+    {
+      "Phoneme": 110,
+      "Start": 2.256,
+      "End": 2.286
+    },
+    {
+      "Phoneme": 100,
+      "Start": 2.278,
+      "End": 2.378
+    },
+    {
+      "Phoneme": 98,
+      "Start": 2.44,
+      "End": 2.479
+    },
+    {
+      "Phoneme": 101,
+      "Start": 2.469,
+      "End": 2.633
+    },
+    {
+      "Phoneme": 98,
+      "Start": 2.632,
+      "End": 2.668
+    },
+    {
+      "Phoneme": 105,
+      "Start": 2.663,
+      "End": 2.785
+    },
+    {
+      "Phoneme": 633,
+      "Start": 2.777,
+      "End": 2.848
+    },
+    {
+      "Phoneme": 593,
+      "Start": 2.843,
+      "End": 3.046
+    },
+    {
+      "Phoneme": 105,
+      "Start": 2.888,
+      "End": 3.266
+    },
+    {
+      "Phoneme": 116,
+      "Start": 3.259,
+      "End": 3.29
+    },
+    {
+      "Phoneme": 633,
+      "Start": 3.342,
+      "End": 3.561
+    },
+    {
+      "Phoneme": 111,
+      "Start": 3.404,
+      "End": 3.69
+    },
+    {
+      "Phoneme": 110,
+      "Start": 3.686,
+      "End": 3.74
+    },
+    {
+      "Phoneme": 100,
+      "Start": 3.731,
+      "End": 3.781
+    },
+    {
+      "Phoneme": 108,
+      "Start": 3.772,
+      "End": 3.865
+    },
+    {
+      "Phoneme": 593,
+      "Start": 3.85,
+      "End": 3.9240003
+    },
+    {
+      "Phoneme": 105,
+      "Start": 3.915,
+      "End": 4.015
+    },
+    {
+      "Phoneme": 107,
+      "Start": 4.011,
+      "End": 4.11
+    },
+    {
+      "Phoneme": 652,
+      "Start": 4.099,
+      "End": 4.157
+    },
+    {
+      "Phoneme": 633,
+      "Start": 4.145,
+      "End": 4.232
+    },
+    {
+      "Phoneme": 603,
+      "Start": 4.22,
+      "End": 4.459
+    },
+    {
+      "Phoneme": 107,
+      "Start": 4.435,
+      "End": 4.481
+    },
+    {
+      "Phoneme": 603,
+      "Start": 4.472,
+      "End": 4.672
+    },
+    {
+      "Phoneme": 100,
+      "Start": 4.664,
+      "End": 4.704
+    },
+    {
+      "Phoneme": 98,
+      "Start": 4.696,
+      "End": 4.754
+    },
+    {
+      "Phoneme": 101,
+      "Start": 4.732,
+      "End": 4.979
+    },
+    {
+      "Phoneme": 98,
+      "Start": 4.968,
+      "End": 5.017
+    },
+    {
+      "Phoneme": 105,
+      "Start": 5.008,
+      "End": 5.093
+    },
+    {
+      "Phoneme": 633,
+      "Start": 5.091,
+      "End": 5.2
+    },
+    {
+      "Phoneme": 593,
+      "Start": 5.193,
+      "End": 5.364
+    },
+    {
+      "Phoneme": 105,
+      "Start": 5.35,
+      "End": 5.536
+    },
+    {
+      "Phoneme": 116,
+      "Start": 5.528,
+      "End": 5.582
+    },
+    {
+      "Phoneme": 633,
+      "Start": 5.601,
+      "End": 5.701
+    },
+    {
+      "Phoneme": 111,
+      "Start": 5.68,
+      "End": 5.974
+    },
+    {
+      "Phoneme": 110,
+      "Start": 5.964,
+      "End": 6.018
+    },
+    {
+      "Phoneme": 100,
+      "Start": 6.006,
+      "End": 6.051
+    },
+    {
+      "Phoneme": 633,
+      "Start": 6.065,
+      "End": 6.133
+    },
+    {
+      "Phoneme": 111,
+      "Start": 6.14,
+      "End": 6.438
+    },
+    {
+      "Phoneme": 110,
+      "Start": 6.433,
+      "End": 6.482
+    },
+    {
+      "Phoneme": 100,
+      "Start": 6.451,
+      "End": 6.523
+    },
+    {
+      "Phoneme": 633,
+      "Start": 6.515,
+      "End": 6.609
+    },
+    {
+      "Phoneme": 111,
+      "Start": 6.604,
+      "End": 7.017
+    },
+    {
+      "Phoneme": 110,
+      "Start": 7.011,
+      "End": 7.045
+    },
+    {
+      "Phoneme": 100,
+      "Start": 7.041,
+      "End": 7.121
+    }
+  ],
+  "__references": []
+}

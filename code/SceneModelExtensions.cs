@@ -1,15 +1,14 @@
 ﻿using Sandbox;
 using System.Collections.Generic;
 using System;
-using System.Linq;
 
 namespace OhioRP;
 
 public static class SceneModelExtensions
 {
-	public static void UpdateLipsync(this SceneModel sceneModel, Sound sound, List<PhonemeData> phonemes )
+	public static void UpdateLipsync(this SceneModel sceneModel, float elapsedTime, List<PhonemeData> phonemes )
 	{
-		AddVisemes( sceneModel, phonemes, sound.ElapsedTime, 0.08f );
+		AddVisemes( sceneModel, phonemes, elapsedTime, 0.08f );
 	}
 
 	private static void AddVisemes( SceneModel sceneModel, List<PhonemeData> phonemes, float t, float dt )

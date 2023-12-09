@@ -1,6 +1,8 @@
 OhioHud {
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
 
     CitizenPanelScene {
         width: 100%;
@@ -10,6 +12,8 @@ OhioHud {
     .counter-text {
         position: absolute;
         bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
         font-family: Impact;
         font-size: 72px;
         text-stroke: 8px black;
@@ -23,10 +27,5 @@ OhioHud {
         font-size: 108px;
         text-stroke: 16px black;
         color: white;
-        opacity: 0;
-
-        &.visible {
-            opacity: 1;
-        }
     }
 }
