@@ -1,4 +1,5 @@
 ﻿using Sandbox;
+using Sandbox.Diagnostics;
 using Sandbox.Services;
 using System;
 using System.Linq;
@@ -26,7 +27,12 @@ public class GameManager : Component
 		OhioHud.TotalSpins = TotalSpins;
 		Spinner.YawSpinComplete += OnSpin;
 		Singer.TrackComplete += ( _, _ ) => PlaySong( _currentTrack );
-		_currentTrack = ResourceLibrary.GetAll<SingerTrack>().FirstOrDefault();
+		var singerTrack = ResourceLibrary.GetAll<SingerTrack>().FirstOrDefault();
+		if ( singerTrack == null )
+		{
+			Log.Error( "ResourceLibrary could not find any resource of type SingerTrack." );
+		}
+		_currentTrack = singerTrack;
 		PlaySong( _currentTrack );
 	}
 
