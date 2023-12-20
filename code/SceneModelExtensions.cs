@@ -82,10 +82,4 @@ public static class SceneModelExtensions
 			morphs.Set( i, morphs.Get( i ) + weight );
 		}
 	}
-
-	[GameEvent.Client.Frame]
-	public static void OnFrame()
-	{
-		Log.Info( "On frame!" );
-	}
 }
