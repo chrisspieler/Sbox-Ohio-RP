@@ -27,6 +27,7 @@ public class Singer : Component
 		var soundDir = SoundSource.Transform.Rotation.Forward;
 		var normalDot = ( listenerDir.Dot( soundDir ) + 1 ) / 2;
 		var occlusion = Easing.QuadraticInOut( normalDot ) * FakeOcclusionScale;
+		if ( _hSndVocals is null ) return;
 		_hSndVocals.Volume = 1 - occlusion;
 	}
 
@@ -38,8 +39,8 @@ public class Singer : Component
 
 	private void PlayTrack()
 	{
-		_hSndVocals.Stop( true );
-		_hSndBacking.Stop( true );
+		_hSndVocals?.Stop( );
+		_hSndBacking?.Stop( );
 		
 		if ( _track == null )
 			return;

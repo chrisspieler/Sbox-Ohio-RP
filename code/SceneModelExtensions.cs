@@ -74,7 +74,7 @@ public static class SceneModelExtensions
 
 		for ( int i = 0; i < model.MorphCount; ++i )
 		{
-			var weight = model.GetPhonemeMorph( phoneme, i );
+			var weight = 0.0f;
 			if ( weight <= 0.0f )
 				continue;
 
